@@ -7,15 +7,48 @@ Proyecto 4to Semestre BD
 
 # Consideraciones
 
-El proyecto consistirá en un servicio que gestione los intercambios de libros entre múltiples usuarios y el administrador. El administrador creará un usuario para cada persona que desee intercambiar un libro con él, con el cual se asociarán los intercambios, donaciones y libros intercambiados o donados.
+## Descripción del Proyecto  
 
-Además de llevar un registro de los usuarios, el administrador mantendrá un control de los libros disponibles, incluyendo aquellos recibidos por donaciones y los que han sido intercambiados. Para cada libro se registrará:
+El proyecto consistirá en un servicio que gestione los intercambios de libros entre múltiples usuarios y el administrador.  
 
-- **Estado físico**, descrito mediante una calificación numérica obtenida a partir de una lista de verificación (checklist), junto con una imagen.
-- **Información del libro**, como título, autor, fecha de publicación, edición y editorial.
-- **Estado de lectura**, indicando si el administrador ha leído o no el libro.
-- **Categorías**, asignando el libro a una o varias categorías (ciencia ficción, fantasía, historia, educativo, etc.).
+- El administrador creará un usuario para cada persona que desee intercambiar un libro con él, con el cual se asociarán los intercambios, donaciones y libros intercambiados o donados.  
+- Además de llevar un registro de los usuarios, el administrador mantendrá un control de los libros disponibles, incluyendo aquellos recibidos por donaciones y los que han sido intercambiados.  
 
+## Registro de Libros  
+
+Para cada libro se registrará:  
+
+- **Estado físico**: Descrito mediante una calificación numérica obtenida a partir de una lista de verificación (*checklist*), junto con una imagen.  
+- **Información del libro**: Título, autor, fecha de publicación, edición y editorial.  
+- **Estado de lectura**: Indica si el administrador ha leído o no el libro.  
+- **Categorías**: Se asignará el libro a una o varias categorías (ciencia ficción, fantasía, historia, educativo, etc.).  
+
+## Registro de Intercambios  
+
+Cada intercambio se registrará con los siguientes datos:  
+
+- **Libros intercambiados**  
+- **Usuario que realiza el intercambio**  
+- **Estado de los libros previo al intercambio**  
+- **Fecha del intercambio**  
+- **Fecha de devolución**, pactada en el momento del intercambio  
+
+## Registro de Donaciones  
+
+Las donaciones serán registradas con la siguiente información:  
+
+- **Usuario que realiza la donación**  
+- **Libro donado**  
+- **Calidad del libro**: Determina el acceso a otros libros según la cantidad y calidad de los donados.  
+- **Fecha de la donación**  
+
+## Sistema de Penalizaciones  
+
+Los usuarios que no cumplan con la fecha de devolución pactada serán penalizados:  
+
+- La penalización quedará registrada en su perfil.  
+- Sanción inicial de **7 días sin poder realizar intercambios**.  
+- Cada infracción posterior **duplicará la duración de la sanción**.  
 ### Lista de Requerimientos
 
 | Código | Nombre                           |
