@@ -7,19 +7,19 @@ Proyecto 4to Semestre BD
 
 ### Lista de Requerimientos
 
-| Código | Nombre                           | Descripción                                                             | Prerrequisitos |
-| ------ | -------------------------------- | ----------------------------------------------------------------------- | -------------- |
-| #01    | Registro de Usuario              | Las personas deben registrarse para intercambiar libros                 | NO APLICA      |
-| #02    | Creación de categorías           | Establecer las categorías de los libros                                 | NO APLICA      |
-| #03    | Registro de libro                | Ingresar los datos básicos del libro a registrar                        | #02            |
-| #04    | Calificación del libro           | Calificación basada en estado físico y calidad literaria                | #01, #02       |
-| #05    | Registro de intercambio          | Guardar la fecha de intercambio, libros, fecha de devolución y dueño    | #01, #03       |
-| #06    | Registro de donaciones           | Ingresar los datos necesarios para realizar donaciones                  | #01, #03       |
-| #07    | Sistema de comentarios y reseñas | Permitir a los usuarios dejar opiniones sobre los libros intercambiados | #01, #03       |
-| #08    | Sistema de sanciones             | Penalizar a usuarios que no devuelvan libros en la fecha estipulada     | #01, #05       |
-| #09    | Búsqueda y filtros               | Buscar libros por título, autor, categoría o estado físico              | #02, #03       |
-| #10    | Estadísticas Usuario             | Cantidad de libros donados e intercambiados                             | #01, #03, #05  |
-| #11    | Estadísticas Libros              | Popularidad, estado promedio, cantidad de intercambios                  | #03, #05       |
+| Código | Nombre                           |
+| ------ | -------------------------------- |
+| #01    | Registro de Usuario              |
+| #02    | Creación de categorías           |
+| #03    | Registro de libro                |
+| #04    | Calificación del libro           |
+| #05    | Registro de intercambio          |
+| #06    | Registro de donaciones           |
+| #07    | Sistema de comentarios y reseñas |
+| #08    | Sistema de sanciones             |
+| #09    | Búsqueda y filtros               |
+| #10    | Estadísticas Usuario             | 
+| #11    | Estadísticas Libros              |
 
 ---
 
